@@ -1,6 +1,8 @@
 # get_assignment
 A bash script to retrieve the project spec and distro code for a given assignment for the CS50 game development class.  This particular script runs on Debian based linux distros, but it can be modified to run on other unix based environments.
 
+I wanted a more convenient way to download and unzip the code distro for each assignment.  Also, I wanted to save the project spec as a pdf so I could reference it if I'm working without an internet connection. 
+
 ## Dependencies
 This script uses wkhtmltopdf to convert an html page to a pdf document.  If you don't have it installed, then run this command:
 
