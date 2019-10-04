@@ -4,7 +4,7 @@ A bash script to retrieve the project spec and distro code for a given assignmen
 I wanted a more convenient way to download and unzip the code distro for each assignment.  Also, I wanted to save the project spec as a pdf so I could reference it if I'm working without an internet connection. 
 
 ## Dependencies
-This script uses wkhtmltopdf to convert an html page to a pdf document.  If you don't have it installed, then run this command:
+This script uses wkhtmltopdf to convert an html page to a pdf document.  [Installation binaries of wkhtmltopdf](https://wkhtmltopdf.org/downloads.html) are available for Windows, CentOS, and macOS.  To install on Debian or Ubuntu, run this command:
 
 `sudo apt-get install wkhtmltopdf`
 
