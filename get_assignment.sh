@@ -38,7 +38,7 @@ wget $DISTRO_URL
 unzip -q $DISTRO_ZIP -d $DISTRO_DEST
 
 echo "Done!"
-echo "Folder for assignment ${ASSNUM} have been extracted to ${DISTRO_DEST}"
+echo "The folder for assignment ${ASSNUM} has been extracted to ${DISTRO_DEST}"
 echo
 echo "You're all set."
 echo "Happy coding!  :)"
