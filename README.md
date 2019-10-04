@@ -11,10 +11,10 @@ This script uses wkhtmltopdf to convert an html page to a pdf document.  [Instal
 ## Usage
 This script requires the assignment number to be passed in at the command line, like so:
 
-`./get_assignment 5`
+`./get_assignment.sh 5`
 
 If you wish to extract the code distro to a directory that is not in the same directory as the script, destination can also be supplied at the command line like so:
 
-`./get_assignment 5 /home/your_username/desired/directory`
+`./get_assignment.sh 5 /path/of/desired/directory`
 
 If a destination directory is not supplied, then this script will extract the assignment distro it's current directory.
