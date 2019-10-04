@@ -17,4 +17,4 @@ If you wish to extract the code distro to a directory that is not in the same di
 
 `./get_assignment.sh 5 /path/of/desired/directory`
 
-If a destination directory is not supplied, then this script will extract the assignment distro it's current directory.
+If a destination directory is not supplied, then this script will extract the assignment distro to it's current directory.
