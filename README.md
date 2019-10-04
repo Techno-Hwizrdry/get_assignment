@@ -14,3 +14,5 @@ This script requires the assignment number to be passed in at the command line, 
 If you wish to extract the code distro to a directory that is not in the same directory as the script, destination can also be supplied at the command line like so:
 
 `./get_assignment 5 /home/your_username/desired/directory`
+
+If a destination directory is not supplied, then this script will extract the assignment distro it's current directory.
